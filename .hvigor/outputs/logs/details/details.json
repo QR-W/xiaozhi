@@ -1,17 +1,16 @@
 {
-  "totalTime": 4728869800,
+  "totalTime": 78275250,
   "moduleNum": 1,
   "taskTime": {
     "compileArkTS": 0,
     "buildArkTS": 0,
     "compileJS": 0,
     "buildJS": 0,
-    "compileResource": 172918000,
+    "compileResource": 67038875,
     "packageHap": 0,
     "signHap": 0
   },
   "isIncremental": true,
   "hasIncremental": true,
-  "isParallel": true,
-  "aotCompileMode": ""
+  "isParallel": true
 }

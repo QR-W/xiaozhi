@@ -1,15 +1,16 @@
 import router from '@ohos.router';
-
+import { RouTmp } from './state';
 @Entry
 @Component
 struct ListPage{
   private completedPatients: Array<string> = []
   onPageShow() {
-    const params = router.getParams();
-
-      this.completedPatients = completedPatients;
-
+    const params: RouTmp = router.getParams() as RouTmp;
+    if (params && params.completedPatients) {
+      this.completedPatients = params.completedPatients;
+    }
   }
+  
 
   build(){
     Column(){
@@ -20,6 +21,7 @@ struct ListPage{
         .margin({ bottom: 20 })
       List(){
       }
+
       .width('90%')
       .height('auto')
       .padding(20)
