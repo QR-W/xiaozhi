@@ -4,6 +4,8 @@ class Login extends ViewPU {
         super(parent, __localStorage, elmtId);
         this.userName = '';
         this.password = '';
+        this.userType = 'nurse';
+        this.message = '';
         this.isHoverLogin = false;
         this.isHoverFingerprint = false;
         this.setInitiallyProvidedValue(params);
@@ -14,6 +16,12 @@ class Login extends ViewPU {
         }
         if (params.password !== undefined) {
             this.password = params.password;
+        }
+        if (params.userType !== undefined) {
+            this.userType = params.userType;
+        }
+        if (params.message !== undefined) {
+            this.message = params.message;
         }
         if (params.isHoverLogin !== undefined) {
             this.isHoverLogin = params.isHoverLogin;
@@ -30,19 +38,80 @@ class Login extends ViewPU {
         SubscriberManager.Get().delete(this.id__());
         this.aboutToBeDeletedInternal();
     }
-    handleLogin() {
+    async handleLogin() {
         // 登录处理逻辑
         console.log('Login clicked');
+        // 这里模拟HTTP请求，请根据实际的HTTP库进行替换
+        const httpRequest = globalThis.requireNapi('http');
+        httpRequest.request({
+            url: 'https://example.com/login',
+            method: 'POST',
+            header: {
+                'Content-Type': 'application/json'
+            },
+            extraData: JSON.stringify({
+                username: this.userName,
+                password: this.password
+            })
+        })
+            .then((data) => {
+            console.log('Login successful:', data);
+            // 在此处理成功的登录逻辑，例如跳转到另一个页面
+            router.pushUrl({
+                url: 'pages/MainPage'
+            });
+        })
+            .catch((error) => {
+            console.error('Login failed:', error);
+            // 显示错误信息
+            console.log('Error: Login failed - ' + error);
+        });
     }
     handleFingerprintLogin() {
-        // 指纹或面容登录处理逻辑
+        // 面容登录处理逻辑
         console.log('Fingerprint login clicked');
+        // 模拟面容识别逻辑，请根据实际情况替换为面容识别代码
+        const faceRecognition = globalThis.requireNapi('faceRecognition');
+        faceRecognition.authenticate()
+            .then((result) => {
+            console.log('Face recognition successful:', result);
+            // 假设 httpRequest 是全局可用的或已经传递进来的实例
+            const httpRequest = globalThis.requireNapi('http');
+            httpRequest.request({
+                url: 'https://example.com/login',
+                method: 'POST',
+                header: {
+                    'Content-Type': 'application/json'
+                },
+                extraData: JSON.stringify({
+                    username: this.userName,
+                    faceToken: result.token // 使用面容识别返回的 token 进行登录
+                })
+            })
+                .then((data) => {
+                console.log('Login successful:', data);
+                // 在此处理成功的登录逻辑，例如跳转到另一个页面
+                router.pushUrl({
+                    url: 'pages/MainPage'
+                });
+            })
+                .catch((error) => {
+                console.error('Login failed:', error);
+                // 显示错误信息
+                console.log('Error: Login failed - ' + error);
+            });
+        })
+            .catch((error) => {
+            console.error('Face recognition failed:', error);
+            // 显示错误信息
+            console.log('Error: Face recognition failed - ' + error);
+        });
     }
     initialRender() {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("pages/LoginPage.ets(20:5)");
+            Column.debugLine("pages/LoginPage.ets(88:5)");
             Column.alignItems(HorizontalAlign.Center);
             Column.justifyContent(FlexAlign.Center);
             Column.width('100%');
@@ -56,7 +125,7 @@ class Login extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Image.create({ "id": 16777220, "type": 20000, params: [], "bundleName": "com.example.xiaozhi", "moduleName": "entry" });
-            Image.debugLine("pages/LoginPage.ets(21:7)");
+            Image.debugLine("pages/LoginPage.ets(89:7)");
             Image.width(80);
             Image.height(80);
             Image.margin(({ bottom: '20vp' }));
@@ -68,7 +137,7 @@ class Login extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create("医小智");
-            Text.debugLine("pages/LoginPage.ets(25:7)");
+            Text.debugLine("pages/LoginPage.ets(93:7)");
             Text.fontSize(30);
             Text.textAlign(TextAlign.Center);
             Text.fontWeight(FontWeight.Bold);
@@ -82,7 +151,7 @@ class Login extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("pages/LoginPage.ets(31:7)");
+            Column.debugLine("pages/LoginPage.ets(99:7)");
             Column.alignItems(HorizontalAlign.Center);
             Column.justifyContent(FlexAlign.Start);
             Column.width('100%');
@@ -102,7 +171,7 @@ class Login extends ViewPU {
             TextInput.create({
                 placeholder: '用户名'
             });
-            TextInput.debugLine("pages/LoginPage.ets(32:9)");
+            TextInput.debugLine("pages/LoginPage.ets(100:9)");
             TextInput.placeholderColor('#ffff');
             TextInput.fontSize(20);
             TextInput.fontColor(Color.White);
@@ -118,7 +187,7 @@ class Login extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("pages/LoginPage.ets(52:7)");
+            Column.debugLine("pages/LoginPage.ets(120:7)");
             Column.alignItems(HorizontalAlign.Center);
             Column.justifyContent(FlexAlign.Start);
             Column.width('100%');
@@ -138,7 +207,7 @@ class Login extends ViewPU {
             TextInput.create({
                 placeholder: '密码'
             });
-            TextInput.debugLine("pages/LoginPage.ets(53:9)");
+            TextInput.debugLine("pages/LoginPage.ets(121:9)");
             TextInput.placeholderColor('#ffff');
             TextInput.type(InputType.Password);
             TextInput.fontSize(20);
@@ -155,7 +224,7 @@ class Login extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Button.createWithLabel('登录');
-            Button.debugLine("pages/LoginPage.ets(74:7)");
+            Button.debugLine("pages/LoginPage.ets(142:7)");
             Button.fontSize(20);
             Button.backgroundColor(this.isHoverLogin ? ('#03a9f4') : ('#03e9f4'));
             Button.fontColor(Color.White);
@@ -181,7 +250,7 @@ class Login extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Button.createWithLabel('面容登录');
-            Button.debugLine("pages/LoginPage.ets(92:7)");
+            Button.debugLine("pages/LoginPage.ets(160:7)");
             Button.fontSize(20);
             Button.backgroundColor("#03e9f4");
             Button.fontColor(Color.White);

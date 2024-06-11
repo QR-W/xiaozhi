@@ -11,6 +11,10 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "toast_enable_bluetooth",
+      "value": ""
     }
   ]
 }
