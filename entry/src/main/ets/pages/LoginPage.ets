@@ -1,3 +1,5 @@
+import router from '@ohos.router';
+
 @Entry
 @Component
 struct Login {
@@ -81,7 +83,11 @@ struct Login {
           console.info('Login button isHover: ' + isHover)
           this.isHoverLogin = isHover as boolean
         })
-        .onClick(() => this.handleLogin())
+        .onClick(()=>{
+          router.pushUrl({
+            url:'pages/MainPage'
+          })
+        })
 
       Button('面容登录')
         .fontSize(20)
