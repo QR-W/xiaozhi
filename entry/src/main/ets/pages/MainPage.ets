@@ -15,6 +15,14 @@ struct Main {
   private doctorAdvice: string = '每天早上服用一粒药物'
   @State private isAdviceExecuted: boolean = false
   @State private  completedPatients: Array<string> = []
+  private navigateToCompletedPatients() {
+    router.push({
+      url: 'pages/ListPage',
+      params: {
+        completedPatients: this.isAdviceExecuted ? [this.patientName] : []
+      }
+    })
+  }
 
   build() {
 
@@ -137,8 +145,10 @@ struct Main {
           .backgroundColor(Color.Green)
           .fontColor(Color.White)
           .borderRadius(5)
+          .onClick(() => this.navigateToCompletedPatients())
+
       }
-      .params({completedPatients: this.completedPatients })
+
     }
 
 
