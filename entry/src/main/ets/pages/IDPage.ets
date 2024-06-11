@@ -1,7 +1,8 @@
 @Entry
 @Component
 
-struct Main {
+struct ID {
+  //床头屏病人信息
   private patientName: string = '李小九'
   private patientAge: number = 70
   private patientGender: string = '男'

@@ -4,6 +4,7 @@ import router from '@ohos.router';
 @Component
 
 struct Main {
+  //PDA病人信息
   private patientName: string = '李小九'
   private patientAge: number = 70
   private patientGender: string = '男'
@@ -12,7 +13,9 @@ struct Main {
   private mainDoctor: string = '张 虹'
   private responsibleNurse: string = '李晓慧'
   private doctorAdvice: string = '每天早上服用一粒药物'
-  private isAdviceExecuted: boolean = false
+  @State private isAdviceExecuted: boolean = false
+  @State private completedPatients: Array<string> = []
+
   build() {
 
     Column(){
@@ -85,7 +88,12 @@ struct Main {
         Row(){
           Checkbox()
             .select(this.isAdviceExecuted)
-            .onChange((value: boolean) => {this.isAdviceExecuted = value})
+            .onChange((value: boolean) => {this.isAdviceExecuted = value
+              if (value) {
+                this.completedPatients.push(this.patientName)
+              } else {
+                this.completedPatients = this.completedPatients.filter(name => name !== this.patientName)
+              }})
             .margin({ right: 10 })
           Text('已完成')
             .fontSize(18)
@@ -95,7 +103,12 @@ struct Main {
         Row(){
           Checkbox()
             .select(!this.isAdviceExecuted)
-            .onChange((value: boolean) => {this.isAdviceExecuted = !value})
+            .onChange((value: boolean) => {this.isAdviceExecuted = !value
+              if (!value) {
+                this.completedPatients.push(this.patientName)
+              } else {
+                this.completedPatients = this.completedPatients.filter(name => name !== this.patientName)
+              }})
             .margin({ right: 10 })
           Text('未完成')
             .fontSize(18)
@@ -117,15 +130,15 @@ struct Main {
         offsetY: 10,
         radius:20
       })
-      Navigator({target:'previous'}){
-        Button('返回')
+      Navigator({target:'pages/ListPage'}){
+        Button('查看已完成医嘱的病人')
           .fontSize(20)
           .padding({ top: 10, bottom: 10, left: 30, right: 30 })
-          .backgroundColor(Color.Blue)
+          .backgroundColor(Color.Green)
           .fontColor(Color.White)
           .borderRadius(5)
-          .margin({ top: 30 })
       }
+      .params({completedPatients: this.completedPatients })
     }
 
 
