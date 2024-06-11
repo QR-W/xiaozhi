@@ -14,7 +14,7 @@ struct Main {
   private responsibleNurse: string = '李晓慧'
   private doctorAdvice: string = '每天早上服用一粒药物'
   @State private isAdviceExecuted: boolean = false
-  @State private completedPatients: Array<string> = []
+  @State private  completedPatients: Array<string> = []
 
   build() {
 
