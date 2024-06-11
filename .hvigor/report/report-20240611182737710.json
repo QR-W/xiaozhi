@@ -1,0 +1,695 @@
+{
+  "version": "1.0",
+  "events": [
+    {
+      "head": {
+        "id": "6def7da6-4002-42ae-8436-1898ff308f94",
+        "name": "hvigor build process will be closed.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396801661200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "df24319e-c29c-4b32-ba05-043246533139",
+        "name": "hvigor disconnect:  client namespace disconnect",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396803142100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c06a4325-3e80-4b02-b82d-0833e489acf7",
+        "name": "hvigor daemon: Socket will be closed. socketId=GHWIffeFWdbiKU_HAAAL, connectionCount=0",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396803679200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6bd9f934-1fe6-42bf-bf42-0598cc1f2fcd",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"idle\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718101645938,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396804549900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ae1affe3-7413-4a78-98cf-9106ba4ad481",
+        "name": "worker[0] exit with exit code 1.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396807234100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f4aee1e9-2801-4949-b46c-6bc376317146",
+        "name": "worker[1] exit with exit code 1.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396807280200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e4d35b12-ccb6-43a5-89f8-2c1aca00f79e",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7400476860700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "99e6bc99-1e36-41bd-9574-52187bb97056",
+        "name": "hvigor daemon: Socket is connected. socketId=54QVCiiDlWhyIdFhAAAN, connectionCount=1",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408529984000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "773c788b-4068-4e57-a496-2dac9bdb3a69",
+        "name": "hvigor daemon: daemonState=idle \n      daemonInfo=[{\"keyId\":\"bdd7b685a19249f80162b6e9589744bc7cf9ca7d\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\DevEco\\\\MyApplication\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":11888,\"state\":\"stopped\",\"lastUsedTime\":1718094383995,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"000000501e82dcff4d0f967141dcb3faf2e4bc851f21299573334863c5aa1761bd39cb1e15adcb659f7bf113203a939f12e0ec84418cd01ed95faa4372e4d996c6d20390e4ffaa51b123d7530930dd1a5d67eb0f905d1db444121fed40dfff3b\"},{\"keyId\":\"76c0968efcfdf0ec765f99f3b0b7392cec3300af\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\OpenHarmony\\\\xiaozhi\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":20560,\"state\":\"stopped\",\"lastUsedTime\":1718093103500,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"00000050df2b6968148e22585ba1e1239f669677b01661bd76e60ae82afbbbf7e4f6d162a54abf0f8dcef68f47d81e84e4e0249821a96cfb8363fd64de85881e6802a186869891b97da3620c828be38be8f1a17f924cca81d6422619f7018ec1\"},{\"keyId\":\"5d6e072c91539f1d1346df3df7cf5f6e7e1a195c\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\DevEco\\\\MyApplication\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":3804,\"state\":\"stopped\",\"lastUsedTime\":1717910185253,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"00000050bc19ac38ef9b1fd97498aece7d69c81d8c7263a16056d42067b397a71f1e44275261d13098d5f6d0cda0f282764225fe3f3d32e456a76055fd806d7bf8542a968b554d0a7b3892a408b0cc93481903ca4aef1b8c6ca1492ed1deff04\"},{\"keyId\":\"e350a94eac3711464730b5b7db5c51a88a563f53\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\OpenHarmony\\\\xiaozhi\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":15700,\"state\":\"stopped\",\"lastUsedTime\":1718086488691,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"00000050698e89354c78f228a2c318596c1d901eebd99c1e1bfe2269340f5cfca6d4eeea250fe7cfcb497c3af4673febefd7468d7ae8a1d2f5579525bb1ff58a39195d1a4e84ac6a9e941294cb67000674ac2a8d43247acb9606f3f3dd253591\"},{\"keyId\":\"4f87e825df055fb4ad72f290e6388c48cab8ec11\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\DevEco\\\\MyApplication\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":15516,\"state\":\"stopped\",\"lastUsedTime\":1717910109449,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"0000005048afd39163c248cb9e150c22e25ae36b957a6e1828c9a531f49b234cb410e818c6deaea399b697ab8ecf58f980dbe620f53cede2b6c19d6fd1998e41a1277ce65f01c0e4b44c50a253985833655d9a2bd2026abd7741ba487a05ab7f\"},{\"keyId\":\"d37fb613b8a0502517b7da202de8390644bb0634\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\OpenHarmony\\\\xiaozhi\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":14360,\"state\":\"stopped\",\"lastUsedTime\":1717933107766,\"info\":\"stopped by exit event with code: -1\",\"createdBy\":\"deveco\",\"sessionId\":\"0000005038dd95ce2bbfb3380ccab645e010e6604fe3a60daf9ef75384f03bab6977b2fe76637872bb9c702cf740d9cfe29d527386cfbd42b02acbf3f3742d06d47c3f8ea73c342344cf4d69268f93b49c6b7d70bbf9d18d5cd8689f164d5730\"},{\"pid\":3360,\"state\":\"idle\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718101645944,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408531583600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "96ada4c0-795e-445d-9f3f-1c2aea3f9974",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"half_busy\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718101645944,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408533167800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "eeba3685-9fe4-4558-87de-782f491c64ad",
+        "name": "set active socket. socketId=54QVCiiDlWhyIdFhAAAN",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408538858900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d4865dd1-1fc8-49db-87de-de994805cd47",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"stopReq\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718101657673,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408539891000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "47d77295-dd93-4415-8b1a-61fd10416757",
+        "name": "hvigor daemon: Receive data from client. data={\n  mode: 'module',\n  watch: true,\n  parallel: true,\n  prop: [\n    'module=entry@default',\n    'product=default',\n    'pageType=page',\n    'compileResInc=true',\n    'previewMode=true',\n    'buildRoot=.preview'\n  ],\n  incremental: true,\n  _: [ 'PreviewBuild' ],\n  daemon: true\n}.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408541680000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "9563138a-cec1-4794-b23c-7ab9a1c36a16",
+        "name": "hvigor daemon: Build start.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408542053300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0062024b-02c6-416e-96a8-1f888530b47c",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"busy\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718101657679,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408542604200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "69f4aa48-55ee-4db0-8eef-ad82e7dd5de6",
+        "name": "Hvigor init with startParameters:{\n  hvigorfileTypeCheck: false,\n  parallelExecution: true,\n  incrementalExecution: true,\n  printStackTrace: false,\n  daemon: true,\n  analyze: 0,\n  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },\n  enableSignTask: true\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408545511100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "557d2e1d-c411-49b0-affd-c8aa4499ce82",
+        "name": "Cache service initialization finished in 3 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408547926100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b14dc8ef-a3f3-4bd2-a19c-b97447c64046",
+        "name": "hvigorfile, resolving D:\\DevEco\\xiaozhi\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408550450300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e2e5aa1f-159a-4177-a08b-49ccac132fc1",
+        "name": "hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408553734900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d1d73fe8-ae6d-462e-a223-f9bdd6d869cd",
+        "name": "hvigorfile, binding system plugins [Function: appTasks]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408553746000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "844c2186-7109-45cb-b11b-e71c9030bdd4",
+        "name": "hvigorfile, binding custom plugins []",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408556546400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "68bb7e67-10e6-41cf-b81f-f0dfc43a57cb",
+        "name": "hvigorfile, no custom plugins were found in D:\\DevEco\\xiaozhi\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408556556400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0d96163f-261c-47c2-a8af-c5776eaa8204",
+        "name": "hvigorfile, resolve finished D:\\DevEco\\xiaozhi\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408556562500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f7710544-2979-4ac8-88e0-c55199866f50",
+        "name": "hvigorfile, resolving D:\\DevEco\\xiaozhi\\entry\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408558357400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "002799fd-0b38-448e-92c0-a0900f5e910f",
+        "name": "hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408560539600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "00c62ca1-b4e0-4e35-b556-160deeb8d92a",
+        "name": "hvigorfile, binding system plugins [Function: hapTasks]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408560552900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "cba922e8-78fc-4f34-a160-b96460719390",
+        "name": "Module entry Collected Dependency: ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408564677200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1d256828-5f78-4ec2-867a-11144250bf0c",
+        "name": "Module entry's total dependency: 0",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408564689800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b062e6ad-2a61-46a7-ba68-347fe326d9cc",
+        "name": "Start initialize module-target build option map, moduleName=entry, buildMode=debug",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408566745100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dd037d1e-f722-4f32-8b29-8205e623af63",
+        "name": "Target 'default' config: {}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408566760700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "eafb4d66-de0d-4538-80cf-48ba99aadafa",
+        "name": "Target 'ohosTest' config: {}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408566788900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5aa26fb9-839b-4673-a638-c7ef65016585",
+        "name": "Module 'entry' target 'default' build option: {\n  \"debuggable\": true,\n  \"copyFrom\": \"default\"\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408566802800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "bb5e7a70-4b2d-4c55-b84a-e686d67903e1",
+        "name": "Module 'entry' target 'ohosTest' build option: {\n  \"debuggable\": true\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408566805700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "758b3878-191b-425e-af1e-d3c76b07c842",
+        "name": "End initialize module-target build option map, moduleName=entry",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408566808600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "614291f4-200c-480c-98f4-e9ad3dbaca2d",
+        "name": "Module 'entry' target 'default' using build option: {\n  \"debuggable\": true,\n  \"copyFrom\": \"default\"\n} in this build.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408566817800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ce7b5006-c4f5-4a28-81d3-7544491f7413",
+        "name": "hvigor build process will be closed with an error.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408567731600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1a0a81de-bc63-498b-bf85-b9f7f7cbbdd9",
+        "name": "Invalid value of 'hwsdk.dir' in 'local.properties' or 'HOS_SDK_HOME' in the system environment path.\r\n\t at /Users/wangqianru/Library/Huawei/Sdk",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408567777000
+      },
+      "additional": {
+        "logType": "error",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2c2406f1-daa9-4a89-b894-10987935f891",
+        "name": "ERROR: stacktrace = Error: Invalid value of 'hwsdk.dir' in 'local.properties' or 'HOS_SDK_HOME' in the system environment path.\r\n\t at /Users/wangqianru/Library/Huawei/Sdk\n    at OhosLogger.errorMessageExit (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor\\src\\base\\log\\hvigor-log.js:1:2347)\n    at OhosLogger._printErrorAndExit (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\utils\\log\\ohos-logger.js:1:1878)\n    at Property.validatePath (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\sdk\\lib\\property-get.js:1:2403)\n    at Property.getHosSdkDir (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\sdk\\lib\\property-get.js:1:1293)\n    at new TargetTaskService (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\tasks\\service\\target-task-service.js:1:1570)\n    at HapPlugin.initTargetDepends (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\plugin\\common\\abstract-module-plugin.js:1:2648)\n    at PluginBuilder.setUpModulePlugin (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\plugin\\factory\\plugin-builder.js:1:1229)\n    at PluginFactory.getHapPlugin (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\plugin\\factory\\plugin-factory.js:1:1513)\n    at hapTasks (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\index.js:1:363)\n    at bindSystemPlugins (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor\\src\\base\\internal\\lifecycle\\configuration.js:1:2777)",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408568345900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c23738c0-fe5f-4667-a70d-8a6e2331c6e2",
+        "name": "PreviewBuild",
+        "description": "",
+        "type": "mark"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408545100600,
+        "endTime": 7408568538700
+      },
+      "additional": {
+        "time": {
+          "year": 2024,
+          "month": 6,
+          "day": 11,
+          "hour": 18,
+          "minute": 27
+        },
+        "markType": "history",
+        "category": "build",
+        "state": "failed"
+      }
+    },
+    {
+      "head": {
+        "id": "7dd0baaf-07dd-411b-981e-99d361609553",
+        "name": "BUILD FAILED in 24 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7408568623400
+      },
+      "additional": {
+        "logType": "error",
+        "children": []
+      }
+    }
+  ],
+  "workLog": []
+}

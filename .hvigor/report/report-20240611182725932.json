@@ -1,0 +1,3551 @@
+{
+  "version": "1.0",
+  "events": [
+    {
+      "head": {
+        "id": "7f18b442-e4b8-4343-941d-e270bbc4f1a5",
+        "name": "hvigor build process will be closed.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1276404774200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3676ce9d-5f10-47cf-9345-e75b5ec679b1",
+        "name": "worker[1] exit with exit code 1.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1276409016300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b3228018-ab97-4270-8f91-7081f8a35b1e",
+        "name": "worker[0] exit with exit code 1.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1276409181300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f6766310-de12-40bc-a484-0ce7f33b4b5e",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1281738232500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "532a3c8f-a78b-4ade-abeb-2d575a7de711",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1311750813900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "25a2caa5-204d-4ce9-bb91-aac4912cb0ce",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1341753305400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8ccf0722-a229-45dd-92bc-2e7cea8cd588",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1371761874500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fca9db59-a186-42c8-9c11-865a80f29902",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1401771852900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "84d68551-5ebc-44e2-8ca0-c72fbd21e2d4",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1431779002900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "017440d1-ebe5-423e-8869-1a9f8a74c87a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1461797273400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "4af237d6-0cbc-4439-b25d-79c6b472504d",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1491811223200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "af494a2b-f399-4f01-9436-96b03055945a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1521811218700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "645f84bc-dbf3-4e9d-8bc6-3b5b6a1c3f0d",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1551817624000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8c54620d-bda6-4719-b1ca-c1eeb4875f65",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1581820998800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "bf55168b-6867-4157-b80c-44ca61a2161b",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1611826987000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e9b174d8-154e-42f9-bb5b-4e0451abdac0",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1641839563800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5bacd6e6-c1e8-4cd6-977d-1c6b8895c460",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1671852091100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "17ffa407-2d18-4ab6-b669-064427b7c5ce",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1701855494400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "baabf0fd-d7a1-4c0f-aba0-ee4ef94fb0e5",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1731862301600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "636effe9-ec64-4296-a906-f127c9fd6b6f",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1761874956700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "372e6f2a-f466-4bba-8919-d9e1482dcd24",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1791877173300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "52f2a74c-d75e-40e8-85aa-104c416a46b1",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1821893082800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "87e2e3ae-6234-4516-bdd4-d685ba8169d0",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1851894455700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "62898695-b09f-4b3d-a393-0fb32b93e1f1",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1881905793200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d6cc60e9-1733-417e-8c21-5408562d3562",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1911909637400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5463224e-3166-4f88-8fed-acb607796190",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1941906873100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2dc32a6f-bfeb-49ee-9a42-3c35fcde75d4",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 1971917613500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fbadb146-f7a2-4187-b912-b0c664cfb4b4",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2001921750000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "621ccd9b-edcf-4040-a526-bf7c3e709add",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2031933060800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2cc00f5f-5325-4a2c-b1e3-de97da93a61c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2061938169700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d88bd027-07ff-46d8-bcc9-03509228596c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2091944501000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b97a2e93-7768-46b9-8822-34ef67ad464e",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2121959833100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "00d16a8e-1d32-45a3-9e72-b3ea399fd6a5",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2151965059500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f1902749-0c7b-4191-af15-bf73cdc9f3a3",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2181974227700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c0695ba7-3dd3-42bb-b4ba-a416bd557a32",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=half_busy.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2211987727800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5a536055-3f00-424f-a2af-aeced46fa883",
+        "name": "hvigor disconnect:  client namespace disconnect",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2214323239300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f58c6b14-1740-49ee-a982-bae67f8ce0c8",
+        "name": "hvigor daemon: terminate worker. threadId=3, socketId=nYpUB9C96-H1iBdHAAAJ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2214324441800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c85651e3-a73a-4d8c-b590-b249e02d3959",
+        "name": "hvigor daemon: Socket will be closed. socketId=nYpUB9C96-H1iBdHAAAJ, connectionCount=0",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2214325561200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f0070102-12b8-4155-9cbd-ecebf750aab2",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"idle\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718095525541,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2214328505900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e8a6e4c7-2d78-43ed-8506-f5bc3deaf9d2",
+        "name": "Server currently has 0 watch-worker",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2214338954000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "16da746d-aa73-4235-ac8f-e9fc9f87e8ad",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2241999811700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "59671108-89fd-4b7e-bb6f-94952cc9e0d3",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2272003169600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "df76c511-d7b7-41b7-b03c-6e06b09b6332",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2302007521700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "bdb7a5e1-f698-47a6-8acc-7f852290ada8",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2332015842600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d860aebe-e077-4c7e-bbc3-5846f0fcde3b",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2362017558400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dc368907-7668-4cad-bf32-576c2e73caa5",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2392031744500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0b695dac-ff8c-4dab-8124-90797655786b",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2422034785400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5386da77-473a-4923-85a1-371ea706ddb7",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2452040132100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f1dc8642-6c6d-4200-84ce-9945b7820932",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2482052266400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5ed24c60-effe-4fbb-89ab-a79aaba6188c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2512054109000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "05a838ad-6c8d-423f-909b-199b0c108def",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2542066842800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f10e119a-53a2-42a0-bf78-46cda78fff2a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2572068473900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "07453436-5872-4fb1-b2be-991bc741c8dc",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2602085919900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d1b6be61-bcb4-47bd-aee5-1b7ba1e10e1a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2632098602500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fd2a7dc2-97c7-447b-bfef-fcfdec79d6ae",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2662101442100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "555aa2d1-125f-4bb2-93c5-b4603a8743e7",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2692100886400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3e675d48-f1bc-4e67-856f-f5b06e4cdd92",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2722101641900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1dbae07f-a307-4e7f-9152-0e29a35d0acc",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2752119826200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f293a5a8-6611-4197-b5b7-63a77effe3e5",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2782131627700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "bfbde2a5-e3bf-42f0-bfaa-41d2b901bace",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2812131679600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "7e520aea-a1bb-463c-af75-b5bfdc679a5c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2842143026200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fb4baf37-fbbb-4a19-afc7-ed3d6e8fe49d",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2872156423100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "167af007-7aff-48bb-94b0-fd3ca6bfe9fc",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2902163384800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6e38722d-a09c-42cc-8bfd-2378cc6c364c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2932165457500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "30d83b07-2409-4634-a3bf-4583d1e26efd",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2962167479200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "4bc28ce5-401e-4c6b-9324-0dd6d0cd58a4",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 2992180703400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f61d38b3-7313-44f6-b189-88a6ba8a2a8b",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 3022182819600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c8453b81-d3ed-4f6d-9b99-b50525f3ee1a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 3052196201200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b33601f3-c2ee-490b-8dbb-fafc63a14e35",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 3082211222800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "56c62a6f-247f-4619-ab88-f6f1eb9c7c99",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 3112225484800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "319fb5bc-18cc-4cc3-af2a-0395170ee8f0",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 3142228989500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c435f685-d0e6-4096-a704-aa90aa3b277c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4279679097300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "9d07ca8a-e4be-4876-9b7c-5c04bde05668",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4309694248300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5db1cfc8-9312-40b0-8951-e26b328c5694",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4339694534100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e18882ab-45cc-4829-916a-f26b78342afa",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4369702253500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b295c2e9-02e8-4fa4-afe8-8f914213bd79",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4399709809500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dcfdcffc-b84e-482a-a053-ed7aedd5758d",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4429710412400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "41973c2c-b091-4a97-a049-8a439cd380fa",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4459713320300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f3c490d2-8cb0-4a73-9b19-330646533ec5",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4489714480700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "14c75dc2-b155-4dee-a3bd-ef166ac89198",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4519732976300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "64981321-a025-4ab5-a71a-03242c8e5fe0",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4549733014800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1fa77232-6682-408d-8368-c099e0518ead",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4579736341600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "af918488-53e0-4db5-a135-947e1827347f",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4609741422900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "43806b14-6d94-416f-a0e2-af339acf67f8",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4639744009100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "91eed2aa-c50d-4d7e-998d-6ab1b90cf476",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4669748855100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "9af8568e-71a4-498c-b1c5-46e1a28ef2df",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4699761453100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1dd8c7df-2cc1-4fb4-861d-8dd170d652bf",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4729768691100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "28dbdb3f-888f-4671-b5ec-252bb010643c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4759774837700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e9d9c556-b1e5-4492-90f0-3f10ae4a9f3f",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4789778903300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a60b5c2c-226e-4ed5-ac04-d0b5c8c1e95f",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4819785351300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6d5f8dfc-bfbb-426f-9cdd-bc79d5d18516",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4849796204300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d8501960-dc8c-4e7e-8456-ca2d1d479069",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4879810308500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1d38c771-3266-405d-b5e4-39a9d42ef627",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4909813216600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "75a83f45-8d17-42d2-be01-be61f5ece920",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4939813323300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "562dd036-8b6e-4a61-beea-4a0931813ebb",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4969827840100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "06c5cc5c-4cc9-4b79-abe6-4bf5d2a2b7e8",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 4999829679500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2b7ceeeb-a6d1-461a-beab-1ffe0a821c2e",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5029837141800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c977cdfc-0d48-4bda-b80e-b1d7e23f1c80",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5059855966600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "04afcba4-006a-4265-a9c0-e4dcc63200cc",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5089858887900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8c28ad54-8b96-4fc3-887b-e4f28c7a1378",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5119865540500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3f811d1c-279c-4cdc-a286-73da8a158511",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5149877338000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8725bb17-fb67-4d94-8aae-2e164ca080f4",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5179892689300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dcd402a1-ffeb-40ef-8353-2224f1849529",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5209896593600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "cae9165b-bd54-4281-a8cc-6cf6a1db0bb9",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5239901231600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fa4f1d0c-43a0-483b-96fd-25763a57fddb",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5269918472900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "57a7e21e-a69a-473d-bb65-559f8de17ab6",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5299919857100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "46f0aa9a-2e1d-42aa-aacf-d72144478b22",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5329925556700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a3e09a16-489a-41b7-a4e1-1cb313bdea99",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5359940941800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "bf14431c-49ef-4afc-9637-74541c61720a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5389954284900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c4c7f717-3080-40ba-8873-917fc060f99e",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5419955688600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "734b6853-3d3a-4cb7-930d-bafeab6f20aa",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5449965715700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fe240328-4dfd-4672-a1fa-9dba1dfdac6e",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5479972133000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0af18298-528b-4d9f-9e85-c42cf7fd7316",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5509983063400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fbb242dd-08bd-4ff5-b3d4-7eecd73050bc",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5539989207900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ee0340ac-02c9-43ca-b8bd-d9eccadc6251",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5570003822000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f89aa671-0f23-479e-9f1e-1beae6f0020b",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5600006509700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ed356ae7-0c35-43e5-82b8-de1cb495e89b",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5630017647500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f8612e12-ce23-4dc5-88d7-d6d48255f9b1",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5660021566300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ffe674bf-3f19-4320-805c-043d42c167c8",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5690025366500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d9c22ca7-eaa2-43d5-b882-fdda7eb0eccf",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5720037330000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "901405c2-c7e1-42e3-8fac-dd08cb8d3f1a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5750054548700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dfa25f21-db0a-4e32-a6a5-bc0d25d59af9",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5780055576900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dd4c38eb-b0fa-44b9-aa39-7197e44f9938",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5810057648900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "85cc2b24-3e59-44ef-8a27-5dfac9f1e3dd",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5840068915200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a345ac9f-23c7-4054-a17c-d156b9cc7525",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5870079430300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "9de9e851-ab39-41da-a76a-c81a061331f2",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5900091285300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2852e7f4-d554-406d-865e-02f6659254f1",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5930101996200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3b4768cb-d941-4352-9f62-1d704f738fff",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5960102153800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "660998a9-bc6e-41e8-931a-2ddfc53402a3",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 5990114717100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "7de351f7-97ed-453a-9633-5d56365aeeef",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6020123857900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "24f15237-0070-4cdb-9e06-2aaf97ad0fc1",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6050133746400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d5808af9-7d35-4196-a34b-a9b38990fdc8",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6080132741400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ffb72fb3-9bd8-43d3-9515-cdf50af5caa0",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6110146831100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "403d9daa-9d16-48c9-882a-2ed8d2d851c2",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6140148797400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6377e30a-f977-42cf-b73d-c4d2166d01bb",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6170165659600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "61c4eec3-f3b8-4f52-8223-6515be66f523",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6200183674600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ef7159f8-dc3c-4434-9eb0-ddb8e436d081",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6230187234600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8d5b096c-26f7-4ef9-9daf-7741b61b5ead",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6260188762500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0278fc6b-9b0b-4fcc-8bbb-89a9a778f6c6",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6290197601900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "4097bc3d-dc8d-4fdb-aa19-c1e91d6051f7",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6320198550300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1931f5c4-84f6-4458-8626-c88868653e8d",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6350212680600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "18e7ab07-be9f-46ad-bafd-f8b0c64393ca",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6380215975200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f0815a65-90fa-4d05-b3ba-f0d7510761fe",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6410225777600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c39f2bca-c32c-47c6-8e8d-9580bd8dde34",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6440229250300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f228d60c-58c6-4170-a3fb-fb3687525830",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6470249028600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3d1a6761-5f81-4d68-bcd5-ba6c8c4747ac",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6500258361700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "51cc8dae-3615-4e23-b64d-8dd0c0ecc990",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6530262757000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2be26a06-c52b-4626-8136-ad655541ddea",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6560265974200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "defcbc87-8e96-4686-8c27-93bd8bae8c8a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6590277153200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "9fa3a83e-c1cd-4fd6-b6dd-324ad35d14ae",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6620278133500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "bdd6b344-3d3d-4840-a60f-8431e7d8c10c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6650279236000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f9116f20-62d9-4525-8fa6-29ccf0e767c3",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6680289325300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5f0252ef-ffd5-407f-b4fc-d914c499211a",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6710291166000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "5d984126-c6da-4a89-9ac4-e73ea2f8c358",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6740294773500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "9f4d412f-f3b4-4ee6-be0a-7f352e5d4e38",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6770297662800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8ebefcdc-55df-4851-9fb3-28b1c3655ea2",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6800310323100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "523576b3-2221-4c38-a709-6ebe8078eaf7",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6830314229400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "81d5462b-78a4-4500-af7a-ef09011aba56",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6860327808300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d53f8277-7823-46db-bd01-39b7f45d51d2",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6890343590200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "7139c3c1-2444-4336-963d-6ec247054c27",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6920356270000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8d7f6814-31d3-4204-a6f0-da459def8a9c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6950354910400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8a8c18e3-69e9-4581-b3c3-3cba3f61aeea",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 6980360416100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "7b016b06-d700-4e7a-a27c-483a6061f325",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7010370643500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f45c8344-c80a-4907-860d-05fca78732a4",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7040374374000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e111b82e-2133-4582-81dc-fe756b4de80c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7070375133300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2aa492d6-abb5-43aa-ae5a-0f532a45210f",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7100388287800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8c15c0ea-5c3d-46f7-a324-d96f7fe08f9c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7130390693600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3d920e9c-8c2f-47de-8f38-6d59d15898d3",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7160402843400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2a389d80-9709-4717-a138-b1094d1a3f61",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7190415437800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "99a17cfb-6b3d-45ff-b586-948674fa9b10",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7220420882800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c4625d92-504b-4d45-832f-802ec1c9164c",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7250430887300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "365dba21-67e1-4ce3-992d-c2b2122283da",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7280435992700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "508b02ec-49c8-48d7-85ed-5f638e9d3004",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7310437272500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c5a66679-fdcc-48bc-8bd8-1f416a5a432f",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7340451635600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e4d70fbb-f47e-4622-8419-ddff66d649b4",
+        "name": "hvigor daemon: Check daemon process existed in registry, daemonStatus=idle.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7370463305200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c37a82c1-bfa2-474c-9d83-64d20c4b65a8",
+        "name": "hvigor daemon: Socket is connected. socketId=GHWIffeFWdbiKU_HAAAL, connectionCount=1",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396752091200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "24a735b2-a4f8-4a61-839b-31f2dd0cd024",
+        "name": "hvigor daemon: daemonState=idle \n      daemonInfo=[{\"keyId\":\"bdd7b685a19249f80162b6e9589744bc7cf9ca7d\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\DevEco\\\\MyApplication\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":11888,\"state\":\"stopped\",\"lastUsedTime\":1718094383995,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"000000501e82dcff4d0f967141dcb3faf2e4bc851f21299573334863c5aa1761bd39cb1e15adcb659f7bf113203a939f12e0ec84418cd01ed95faa4372e4d996c6d20390e4ffaa51b123d7530930dd1a5d67eb0f905d1db444121fed40dfff3b\"},{\"keyId\":\"76c0968efcfdf0ec765f99f3b0b7392cec3300af\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\OpenHarmony\\\\xiaozhi\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":20560,\"state\":\"stopped\",\"lastUsedTime\":1718093103500,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"00000050df2b6968148e22585ba1e1239f669677b01661bd76e60ae82afbbbf7e4f6d162a54abf0f8dcef68f47d81e84e4e0249821a96cfb8363fd64de85881e6802a186869891b97da3620c828be38be8f1a17f924cca81d6422619f7018ec1\"},{\"keyId\":\"5d6e072c91539f1d1346df3df7cf5f6e7e1a195c\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\DevEco\\\\MyApplication\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":3804,\"state\":\"stopped\",\"lastUsedTime\":1717910185253,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"00000050bc19ac38ef9b1fd97498aece7d69c81d8c7263a16056d42067b397a71f1e44275261d13098d5f6d0cda0f282764225fe3f3d32e456a76055fd806d7bf8542a968b554d0a7b3892a408b0cc93481903ca4aef1b8c6ca1492ed1deff04\"},{\"keyId\":\"e350a94eac3711464730b5b7db5c51a88a563f53\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\OpenHarmony\\\\xiaozhi\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":15700,\"state\":\"stopped\",\"lastUsedTime\":1718086488691,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"00000050698e89354c78f228a2c318596c1d901eebd99c1e1bfe2269340f5cfca6d4eeea250fe7cfcb497c3af4673febefd7468d7ae8a1d2f5579525bb1ff58a39195d1a4e84ac6a9e941294cb67000674ac2a8d43247acb9606f3f3dd253591\"},{\"keyId\":\"4f87e825df055fb4ad72f290e6388c48cab8ec11\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\DevEco\\\\MyApplication\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":15516,\"state\":\"stopped\",\"lastUsedTime\":1717910109449,\"info\":\"Project closed and this daemon was created by Deveco.\",\"createdBy\":\"deveco\",\"sessionId\":\"0000005048afd39163c248cb9e150c22e25ae36b957a6e1828c9a531f49b234cb410e818c6deaea399b697ab8ecf58f980dbe620f53cede2b6c19d6fd1998e41a1277ce65f01c0e4b44c50a253985833655d9a2bd2026abd7741ba487a05ab7f\"},{\"keyId\":\"d37fb613b8a0502517b7da202de8390644bb0634\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\OpenHarmony\\\\xiaozhi\",\"nodeVersion\":\"v18.14.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":14360,\"state\":\"stopped\",\"lastUsedTime\":1717933107766,\"info\":\"stopped by exit event with code: -1\",\"createdBy\":\"deveco\",\"sessionId\":\"0000005038dd95ce2bbfb3380ccab645e010e6604fe3a60daf9ef75384f03bab6977b2fe76637872bb9c702cf740d9cfe29d527386cfbd42b02acbf3f3742d06d47c3f8ea73c342344cf4d69268f93b49c6b7d70bbf9d18d5cd8689f164d5730\"},{\"pid\":3360,\"state\":\"idle\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718096463470,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396752888000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a3bf9bd7-a104-4770-861f-ee1cf7e3bf81",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"half_busy\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718096463470,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396753465400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b6a7e0c7-2de9-4b9e-82d3-8a782908d8fb",
+        "name": "set active socket. socketId=GHWIffeFWdbiKU_HAAAL",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396756644400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ab1d432e-28d8-4847-8038-d42ef8f946ea",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"stopReq\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718101645892,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396757547600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3d9f1aa8-c54d-4c56-8ebd-46568c3977bd",
+        "name": "hvigor daemon: Receive data from client. data={\n  mode: 'module',\n  watch: true,\n  parallel: true,\n  prop: [\n    'module=entry@default',\n    'product=default',\n    'pageType=page',\n    'compileResInc=true',\n    'previewMode=true',\n    'buildRoot=.preview'\n  ],\n  incremental: true,\n  _: [ 'PreviewBuild' ],\n  daemon: true\n}.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396759332100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d0fead7e-1e55-494d-bb2a-4eddf55f3b64",
+        "name": "hvigor daemon: Build start.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396759961800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6cf79fb9-2c48-4c38-a27b-8617170a0dee",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":3360,\"state\":\"busy\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\DevEco\\\\xiaozhi\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"963d4fbed9e751d1f773e59c02dc2d780d486701\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v18.14.1\",\"port\":45000,\"lastUsedTime\":1718101645897,\"createdBy\":\"deveco\",\"sessionId\":\"000000508d43689880de257b10ee973a7706332a4a1d3996f1d9840e53d3a22f5dc70df013d9219be584caeacf4d5265396ed01b239fcabe27da02554f926ae50713de7be03a93e06d63e329065bce894763f63cbc818a4c3ecbe6ff16f5dc97\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396760709900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "74d9d09e-8863-4198-8a28-fb772bd097ed",
+        "name": "Hvigor init with startParameters:{\n  hvigorfileTypeCheck: false,\n  parallelExecution: true,\n  incrementalExecution: true,\n  printStackTrace: false,\n  daemon: true,\n  analyze: 0,\n  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },\n  enableSignTask: true\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396763387900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2450f4a3-f742-4079-877d-f7463e3ddb1f",
+        "name": "Cache service initialization finished in 3 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396766381200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e41c6ee9-7599-430a-ba34-be4ed9f216d4",
+        "name": "hvigorfile, resolving D:\\DevEco\\xiaozhi\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396769291000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "93ccef10-2478-4632-bee0-0b8dd26d15f9",
+        "name": "hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396774099400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d583fc2b-98f7-415d-9bc4-1ee0e3827b5d",
+        "name": "hvigorfile, binding system plugins [Function: appTasks]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396774138000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "c377a72f-9f1d-4a4e-b87a-472892cf98c9",
+        "name": "hvigorfile, binding custom plugins []",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396777486000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "fbf48c77-2694-423a-9c6d-5be6596f26dd",
+        "name": "hvigorfile, no custom plugins were found in D:\\DevEco\\xiaozhi\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396777494600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e846aa79-9356-4c80-bf70-78fb7a9b808d",
+        "name": "hvigorfile, resolve finished D:\\DevEco\\xiaozhi\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396777499400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "43b76a32-be80-4003-9d41-eb64cd32fdf6",
+        "name": "hvigorfile, resolving D:\\DevEco\\xiaozhi\\entry\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396779228300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "45916af6-303e-4d03-9ff8-41ed3b305173",
+        "name": "hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396781401600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3a0f0c48-aca5-4eba-9b8a-f8d3ab5ee1f6",
+        "name": "hvigorfile, binding system plugins [Function: hapTasks]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396781410900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f022c864-4ddd-4675-8407-d198a92f5ef4",
+        "name": "Module entry Collected Dependency: ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396784721400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "1929847b-2122-4e6d-949e-ec5e29f3b311",
+        "name": "Module entry's total dependency: 0",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396784731900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "88e29cca-69b4-4155-8f0f-ca5bdad09c10",
+        "name": "Start initialize module-target build option map, moduleName=entry, buildMode=debug",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396786802000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "eeca0300-a0a0-46e2-bc22-7c62990fba2e",
+        "name": "Target 'default' config: {}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396786822500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dd1421c4-de10-4a47-9721-d08f95a3a28d",
+        "name": "Target 'ohosTest' config: {}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396786873600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0a223186-a443-483d-a8be-aa032f82217c",
+        "name": "Module 'entry' target 'default' build option: {\n  \"debuggable\": true,\n  \"copyFrom\": \"default\"\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396786890800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "dae148a1-ba9d-4ec6-8790-a4f4e1910399",
+        "name": "Module 'entry' target 'ohosTest' build option: {\n  \"debuggable\": true\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396786895000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "82d40af1-1419-4091-ad0d-257670fd73a5",
+        "name": "End initialize module-target build option map, moduleName=entry",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396786897800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "07961815-970d-405a-8c70-d8c0320561c4",
+        "name": "Module 'entry' target 'default' using build option: {\n  \"debuggable\": true,\n  \"copyFrom\": \"default\"\n} in this build.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396786908700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "51913193-f645-4588-8eab-57355d07b58d",
+        "name": "hvigor build process will be closed with an error.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396787862200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "22e6f9a2-debb-4982-af5e-ecfbc3131350",
+        "name": "Invalid value of 'hwsdk.dir' in 'local.properties' or 'HOS_SDK_HOME' in the system environment path.\r\n\t at /Users/wangqianru/Library/Huawei/Sdk",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396787884800
+      },
+      "additional": {
+        "logType": "error",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0617f9f7-d85c-474f-a328-c1fefea1462f",
+        "name": "ERROR: stacktrace = Error: Invalid value of 'hwsdk.dir' in 'local.properties' or 'HOS_SDK_HOME' in the system environment path.\r\n\t at /Users/wangqianru/Library/Huawei/Sdk\n    at OhosLogger.errorMessageExit (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor\\src\\base\\log\\hvigor-log.js:1:2347)\n    at OhosLogger._printErrorAndExit (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\utils\\log\\ohos-logger.js:1:1878)\n    at Property.validatePath (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\sdk\\lib\\property-get.js:1:2403)\n    at Property.getHosSdkDir (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\sdk\\lib\\property-get.js:1:1293)\n    at new TargetTaskService (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\tasks\\service\\target-task-service.js:1:1570)\n    at HapPlugin.initTargetDepends (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\plugin\\common\\abstract-module-plugin.js:1:2648)\n    at PluginBuilder.setUpModulePlugin (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\plugin\\factory\\plugin-builder.js:1:1229)\n    at PluginFactory.getHapPlugin (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\src\\plugin\\factory\\plugin-factory.js:1:1513)\n    at hapTasks (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor-ohos-plugin@3.2.4_@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor-ohos-plugin\\index.js:1:363)\n    at bindSystemPlugins (C:\\Users\\31759\\.hvigor\\project_caches\\883ff35a95baac36e903ba0f9d6852bd\\workspace\\node_modules\\.pnpm\\@ohos+hvigor@3.2.4\\node_modules\\@ohos\\hvigor\\src\\base\\internal\\lifecycle\\configuration.js:1:2777)",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396788320700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "db2de2d9-d714-4a88-8446-559d8512f2b7",
+        "name": "PreviewBuild",
+        "description": "",
+        "type": "mark"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396762935600,
+        "endTime": 7396788428500
+      },
+      "additional": {
+        "time": {
+          "year": 2024,
+          "month": 6,
+          "day": 11,
+          "hour": 18,
+          "minute": 27
+        },
+        "markType": "history",
+        "category": "build",
+        "state": "failed"
+      }
+    },
+    {
+      "head": {
+        "id": "5a8726d5-251e-455c-9938-cd85205447f0",
+        "name": "BUILD FAILED in 26 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 3360,
+        "tid": "Main Thread",
+        "startTime": 7396788448000
+      },
+      "additional": {
+        "logType": "error",
+        "children": []
+      }
+    }
+  ],
+  "workLog": []
+}

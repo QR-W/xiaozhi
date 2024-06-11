@@ -1,0 +1,5 @@
+D:/DevEco/xiaozhi/entry/.preview/cache/.default/entry/src/main/ets/entryability/EntryAbility.js;com.example.xiaozhi/entry/ets/entryability/EntryAbility;esm;entry/src/main/ets/entryability/EntryAbility.ts;entry
+D:/DevEco/xiaozhi/entry/.preview/cache/.default/entry/src/main/ets/pages/MainPage.js;com.example.xiaozhi/entry/ets/pages/MainPage;esm;entry/src/main/ets/pages/MainPage.ets;entry
+D:/DevEco/xiaozhi/entry/.preview/cache/.default/entry/src/main/ets/pages/ListPage.js;com.example.xiaozhi/entry/ets/pages/ListPage;esm;entry/src/main/ets/pages/ListPage.ets;entry
+D:/DevEco/xiaozhi/entry/.preview/cache/.default/entry/src/main/ets/pages/LoginPage.js;com.example.xiaozhi/entry/ets/pages/LoginPage;esm;entry/src/main/ets/pages/LoginPage.ets;entry
+D:/DevEco/xiaozhi/entry/.preview/cache/.default/entry/src/main/ets/pages/IDPage.js;com.example.xiaozhi/entry/ets/pages/IDPage;esm;entry/src/main/ets/pages/IDPage.ets;entry
