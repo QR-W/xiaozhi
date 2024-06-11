@@ -5,9 +5,11 @@ import router from '@ohos.router';
 struct Login {
   private userName: string = ''
   private password: string = ''
+  private userType: string = 'nurse';
+  private message: string = '';
   private isHoverLogin: boolean = false
   private isHoverFingerprint: boolean = false
-  private handleLogin() {
+  private async handleLogin() {
     // 登录处理逻辑
     console.log('Login clicked')
 
