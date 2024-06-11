@@ -10,11 +10,74 @@ struct Login {
   private handleLogin() {
     // 登录处理逻辑
     console.log('Login clicked')
+
+    // 这里模拟HTTP请求，请根据实际的HTTP库进行替换
+    const httpRequest = globalThis.requireNapi('http');
+    httpRequest.request({
+      url: 'https://example.com/login',  // 替换为实际的登录 API 地址
+      method: 'POST',
+      header: {
+        'Content-Type': 'application/json'
+      },
+      extraData: JSON.stringify({
+        username: this.userName,
+        password: this.password
+      }),
+      success: (data) => {
+        console.log('Login successful:', data)
+        // 在此处理成功的登录逻辑，例如跳转到另一个页面
+        router.pushUrl({
+          url: 'pages/MainPage'
+        })
+      },
+      fail: (data, code) => {
+        console.error('Login failed:', code)
+        // 在此处理失败的登录逻辑，例如显示错误信息
+      },
+    })
   }
 
   private handleFingerprintLogin() {
-    // 指纹或面容登录处理逻辑
-    console.log('Fingerprint login clicked')}
+    // 面容登录处理逻辑
+    console.log('Fingerprint login clicked')
+
+    // 模拟面容识别逻辑，请根据实际情况替换为面容识别代码
+    const faceRecognition = globalThis.requireNapi('faceRecognition');
+    faceRecognition.authenticate({
+      success: (result) => {
+        console.log('Face recognition successful:', result)
+        // 假设 httpRequest 是全局可用的或已经传递进来的实例
+        const httpRequest = globalThis.requireNapi('http');
+        httpRequest.request({
+          url: 'https://example.com/login',  // 替换为实际的登录 API 地址
+          method: 'POST',
+          header: {
+            'Content-Type': 'application/json'
+          },
+          extraData: JSON.stringify({
+            username: this.userName,
+            faceToken: result.token  // 使用面容识别返回的 token 进行登录
+          }),
+          success: (data) => {
+            console.log('Login successful:', data)
+            // 在此处理成功的登录逻辑，例如跳转到另一个页面
+            router.pushUrl({
+              url: 'pages/MainPage'
+            })
+          },
+          fail: (data, code) => {
+            console.error('Login failed:', code)
+            // 在此处理失败的登录逻辑，例如显示错误信息
+          },
+        })
+      },
+      fail: (error) => {
+        console.error('Face recognition failed:', error)
+        // 在此处理面容识别失败的逻辑，例如显示错误信息
+      }
+    });
+  }
+
   build() {
 
     Column() {

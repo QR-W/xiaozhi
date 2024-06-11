@@ -3,13 +3,13 @@
 		"BUNDLE_NAME":"com.example.xiaozhi",
 		"SELECT_BUILD_MODE":"",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"/Users/wangqianru/DevEcoStudioProjects/xiaozhi/build/outputs/default"
+			"OUTPUT_PATH":"D:\\DevEco\\xiaozhi\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_PRODUCT":"default"
 	},
 	"CommonInfo":{
 		"crossplatform.projectType":"",
-		"project.ide.version":"4.0.0.600",
+		"project.ide.version":"4.1.0.400",
 		"current.select.product":"default",
 		"current.select.buildMode":""
 	}
