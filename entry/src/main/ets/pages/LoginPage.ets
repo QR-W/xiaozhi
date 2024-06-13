@@ -9,36 +9,42 @@ struct Login {
   private message: string = '';
   private isHoverLogin: boolean = false
   private isHoverFingerprint: boolean = false
+
+  private base64Encode(str: string): string {
+    return globalThis.btoa(str);
+  }
+
   private async handleLogin() {
     // 登录处理逻辑
     console.log('Login clicked')
 
-    // 这里模拟HTTP请求，请根据实际的HTTP库进行替换
+    const encryptedUsername = this.base64Encode(this.userName);
+    const encryptedPassword = this.base64Encode(this.password);
+
     const httpRequest = globalThis.requireNapi('http');
     httpRequest.request({
-      url: 'https://example.com/login',  // 替换为实际的登录 API 地址
+      url: 'https://192.168.106.1:3000/login',  // 替换为实际的登录 API 地址
       method: 'POST',
       header: {
         'Content-Type': 'application/json'
       },
       extraData: JSON.stringify({
-        username: this.userName,
-        password: this.password
-      })
-    })
-      .then((data) => {
+        username: encryptedUsername,
+        password: encryptedPassword
+      }),
+      success: (data) => {
         console.log('Login successful:', data)
         // 在此处理成功的登录逻辑，例如跳转到另一个页面
         router.pushUrl({
           url: 'pages/MainPage'
         })
-      })
-      .catch((error) => {
-        console.error('Login failed:', error)
+      },
+      fail: (data, code) => {
+        console.error('Login failed:', code)
         // 显示错误信息
-        console.log('Error: Login failed - ' + error)
-      });
-
+        console.log('Error: Login failed - ' + code)
+      }
+    });
   }
 
   private handleFingerprintLogin() {
@@ -47,40 +53,42 @@ struct Login {
 
     // 模拟面容识别逻辑，请根据实际情况替换为面容识别代码
     const faceRecognition = globalThis.requireNapi('faceRecognition');
-    faceRecognition.authenticate()
-      .then((result) => {
+    faceRecognition.authenticate({
+      success: (result) => {
         console.log('Face recognition successful:', result)
-        // 假设 httpRequest 是全局可用的或已经传递进来的实例
+        const encryptedUsername = this.base64Encode(this.userName);
+
         const httpRequest = globalThis.requireNapi('http');
         httpRequest.request({
-          url: 'https://example.com/login',  // 替换为实际的登录 API 地址
+          url: 'https://192.168.106.1:3000/login',  // 替换为实际的登录 API 地址
           method: 'POST',
           header: {
             'Content-Type': 'application/json'
           },
           extraData: JSON.stringify({
-            username: this.userName,
+            username: encryptedUsername,
             faceToken: result.token  // 使用面容识别返回的 token 进行登录
-          })
-        })
-          .then((data) => {
+          }),
+          success: (data) => {
             console.log('Login successful:', data)
             // 在此处理成功的登录逻辑，例如跳转到另一个页面
             router.pushUrl({
               url: 'pages/MainPage'
             })
-          })
-          .catch((error) => {
-            console.error('Login failed:', error)
+          },
+          fail: (data, code) => {
+            console.error('Login failed:', code)
             // 显示错误信息
-            console.log('Error: Login failed - ' + error)
-          });
-      })
-      .catch((error) => {
+            console.log('Error: Login failed - ' + code)
+          }
+        });
+      },
+      fail: (error) => {
         console.error('Face recognition failed:', error)
         // 显示错误信息
         console.log('Error: Face recognition failed - ' + error)
-      });
+      }
+    });
   }
 
   build() {
